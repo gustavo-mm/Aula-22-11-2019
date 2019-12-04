@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lato");
+body {
+    background-color: white;
+    color: black;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+
+main {
+    font-family: lato;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.form-box {
+    width: 300px;
+    background: rgba(0, 0, 0, 0.65);
+    font-family: Lato;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.form-box .form-input {
+    border: none;
+    background: #eee;
+    width: 95%;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.form-box .form-btn {
+    border: none;
+    margin-top: 30px;
+    background: #07f0dc;
+    width: 95%;
+    height: 40px;
+    font-size: large;
+    color: #fff;
+}
+
+.form-box a {
+    color: #1ba39c;
+    text-decoration: none;
+}
+
+.form-box a:visited {
+    color: #1ba39c;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 425px) {
+    main {
+        background-image: url(../img/images.jpg);
+    }
+    .form-box {
+        width: 100vw;
+        height: 100vh;
+    }
+}
